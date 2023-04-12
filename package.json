@@ -1,0 +1,33 @@
+{
+  "name": "shopit",
+  "version": "1.0.0",
+  "description": "ecommerce site using mern",
+  "main": "server.js",
+  "scripts": {
+    "start": "node backend/server.js",
+    "dev": "SET NODE_ENV=DEVELOPMENT& nodemon backend/server.js",
+    "prod": "SET NODE_ENV=PRODUCTION& nodemon backend/server.js",
+    "seeder": "node backend/utils/seeder.js"
+  },
+  "author": "parikshith",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.20.1",
+    "bootstrap": "^5.2.3",
+    "cloudinary": "^1.33.0",
+    "cookie-parser": "^1.4.6",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "express-fileupload": "^1.4.0",
+    "jsonwebtoken": "^9.0.0",
+    "mongoose": "^6.8.4",
+    "nodemailer": "^6.9.0",
+    "rc-slider": "^10.1.1",
+    "stripe": "^11.9.1",
+    "validator": "^13.7.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
